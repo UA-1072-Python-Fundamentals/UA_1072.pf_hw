@@ -1,0 +1,12 @@
+#2nd homework
+print('What is "A"?')
+A = int(input())
+print('What is "B"?')
+B = int(input())
+print("A + B =", A + B)
+print("A - B =", A - B)
+print("A * B =", A * B)
+print("A / B =", A / B)
+print("A // B =", A // B)
+print("A % B =", A % B)
+print("A ** B =", A ** B)
