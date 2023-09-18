@@ -18,7 +18,7 @@ The Zen of Python, by Tim Peters
 16 - YuriiGridin , Iurii Gridin
 17 - PavloHavron Pavlo Havron
 18 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
-19 - РћР»РµРєСЃР°РЅРґСЂ Рљ SawaAser
+19 - Namespaces are one honking great idea -- let's do more of those!
 20 - shtvlad, Vladislav Shtanhei
 21 - andrii2323
 22 - Nadiia Illiushyna, somniumtx
@@ -50,7 +50,7 @@ The Zen of Python, by Tim Peters
 48 - YuriiGridin , Iurii Gridin
 49 - PavloHavron Pavlo Havron
 50 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
-51 - РћР»РµРєСЃР°РЅРґСЂ Рљ SawaAser
+51 - Although that way may not be obvious at first unless you're Dutch.
 52 - shtvlad, Vladislav Shtanhei
 53 - andrii2323
 54 - Nadiia Illiushyna, somniumtx
