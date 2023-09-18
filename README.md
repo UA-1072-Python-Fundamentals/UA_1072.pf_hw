@@ -1,5 +1,7 @@
 # UA_1072.pf_hw
 
+`hw/hwXX/<nickname>`
+
 Iryna Iasko - nickname:  Irarasta
 
 Yevhen Malyna, Capylyn
