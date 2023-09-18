@@ -2,52 +2,52 @@
 
 `hw/hwXX/<nickname>`
 
-Iryna Iasko - nickname:  Irarasta
+* Iryna Iasko - nickname:  Irarasta
 
-Yevhen Malyna, Capylyn
+* Yevhen Malyna, Capylyn
 
-Anna Poshyta asanasa
+* Anna Poshyta asanasa
 
-Markiian Dmytruk mrknd
+* Markiian Dmytruk mrknd
 
-Aleksandr Shevchenko, Alexandr1123212545
+* Aleksandr Shevchenko, Alexandr1123212545
 
-Kostiantyn Yasinskyi YasinKostya
+* Kostiantyn Yasinskyi YasinKostya
 
-Tetiana Lesiv tatelesiv
+* Tetiana Lesiv tatelesiv
 
-Valeria Larchyk - LachykV
+* Valeria Larchyk - LachykV
 
-Karyna Bohoslovets Karina0615
+* Karyna Bohoslovets Karina0615
 
-Yulianna Drok Yulianna22
+* Yulianna Drok Yulianna22
 
-Oleg Krupyak, Krupyak
+* Oleg Krupyak, Krupyak
 
-Matvii Lukin - Cawa123qwe
+* Matvii Lukin - Cawa123qwe
 
-Olha Moroz olha-moroz
+* Olha Moroz olha-moroz
 
-Dmytro Shpak, shpakdmitriy
+* Dmytro Shpak, shpakdmitriy
 
-Maksym Shylov , shyma66
+* Maksym Shylov , shyma66
 
-MorpheusFR Kirill Suprun
+* MorpheusFR Kirill Suprun
 
-YuriiGridin , Iurii Gridin
+* YuriiGridin , Iurii Gridin
 
-PavloHavron Pavlo Havron
+* PavloHavron Pavlo Havron
 
-Задевська Діана IDiana-Hub
+* Задевська Діана IDiana-Hub
 
-Олександр К SawaAser
+* Олександр К SawaAser
 
-shtvlad, Vladislav Shtanhei
+* shtvlad, Vladislav Shtanhei
 
-andrii2323
+* andrii2323
 
-Nadiia Illiushyna, somniumtx
+* Nadiia Illiushyna, somniumtx
 
-Spectrvq (Maksym Oposhnii)
+* Spectrvq (Maksym Oposhnii)
 
 
