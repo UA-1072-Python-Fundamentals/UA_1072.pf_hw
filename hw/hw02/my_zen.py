@@ -17,7 +17,7 @@ The Zen of Python, by Tim Peters
 15 - MorpheusFR Kirill Suprun
 16 - Although never is often better than *right* now.
 17 - PavloHavron Pavlo Havron
-18 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
+18 - If the implementation is easy to explain, it may be a good idea.
 19 - Namespaces are one honking great idea -- let's do more of those!
 20 - shtvlad, Vladislav Shtanhei
 21 - andrii2323
@@ -49,7 +49,7 @@ The Zen of Python, by Tim Peters
 47 - MorpheusFR Kirill Suprun
 48 - Unless explicitly silenced.
 49 - PavloHavron Pavlo Havron
-50 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
+50 - There should be one-- and preferably only one --obvious way to do it.
 51 - Although that way may not be obvious at first unless you're Dutch.
 52 - shtvlad, Vladislav Shtanhei
 53 - andrii2323
