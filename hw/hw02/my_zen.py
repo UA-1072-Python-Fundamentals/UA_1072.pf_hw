@@ -15,7 +15,7 @@ The Zen of Python, by Tim Peters
 13 - Dmytro Shpak, shpakdmitriy
 14 - Maksym Shylov , shyma66
 15 - MorpheusFR Kirill Suprun
-16 - YuriiGridin , Iurii Gridin
+16 - Although never is often better than *right* now.
 17 - PavloHavron Pavlo Havron
 18 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
 19 - Namespaces are one honking great idea -- let's do more of those!
@@ -47,7 +47,7 @@ The Zen of Python, by Tim Peters
 45 - Dmytro Shpak, shpakdmitriy
 46 - Maksym Shylov , shyma66
 47 - MorpheusFR Kirill Suprun
-48 - YuriiGridin , Iurii Gridin
+48 - Unless explicitly silenced.
 49 - PavloHavron Pavlo Havron
 50 - Р—Р°РґРµРІСЃСЊРєР° Р”С–Р°РЅР° IDiana-Hub
 51 - Although that way may not be obvious at first unless you're Dutch.
