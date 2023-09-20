@@ -1,6 +1,7 @@
 The Zen of Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
+1 + Explicit is better than implicit.
 2 - Anna Poshyta asanasa
 3 - Markiian Dmytruk mrknd
 4 - Aleksandr Shevchenko, Alexandr1123212545
@@ -33,6 +34,7 @@ The Zen of Python, by Tim Peters
 31 - user08
 32 - Iryna Iasko - nickname:  Irarasta
 33 - Yevhen Malyna, Capylyn
+33 + Although that way may not be obvious at first unless you're Dutch.
 34 - Anna Poshyta asanasa
 35 - Markiian Dmytruk mrknd
 36 - Aleksandr Shevchenko, Alexandr1123212545
