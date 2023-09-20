@@ -11,7 +11,7 @@ The Zen of Python, by Tim Peters
 9 - Yulianna Drok Yulianna22
 10 - Oleg Krupyak, Krupyak
 11 - Matvii Lukin - Cawa123qwe
-12 - Olha Moroz olha-moroz
+12 - In the face of ambiguity, refuse the temptation to guess.
 13 - Dmytro Shpak, shpakdmitriy
 14 - Although that way may not be obvious at first unless you're Dutch.
 15 - MorpheusFR Kirill Suprun
@@ -43,7 +43,7 @@ The Zen of Python, by Tim Peters
 41 - Yulianna Drok Yulianna22
 42 - Oleg Krupyak, Krupyak
 43 - Matvii Lukin - Cawa123qwe
-44 - Olha Moroz olha-moroz
+44 - Readability counts.
 45 - Dmytro Shpak, shpakdmitriy
 46 - Although practicality beats purity.
 47 - MorpheusFR Kirill Suprun
