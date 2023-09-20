@@ -13,7 +13,7 @@ The Zen of Python, by Tim Peters
 11 - Matvii Lukin - Cawa123qwe
 12 - Olha Moroz olha-moroz
 13 - Dmytro Shpak, shpakdmitriy
-14 - Maksym Shylov , shyma66
+14 - Although that way may not be obvious at first unless you're Dutch.
 15 - MorpheusFR Kirill Suprun
 16 - Although never is often better than *right* now.
 17 - PavloHavron Pavlo Havron
@@ -45,7 +45,7 @@ The Zen of Python, by Tim Peters
 43 - Matvii Lukin - Cawa123qwe
 44 - Olha Moroz olha-moroz
 45 - Dmytro Shpak, shpakdmitriy
-46 - Maksym Shylov , shyma66
+46 - Although practicality beats purity.
 47 - MorpheusFR Kirill Suprun
 48 - Unless explicitly silenced.
 49 - PavloHavron Pavlo Havron
