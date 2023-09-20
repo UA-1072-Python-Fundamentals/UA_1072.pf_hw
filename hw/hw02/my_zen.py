@@ -7,13 +7,13 @@ The Zen of Python, by Tim Peters
 5 - Kostiantyn Yasinskyi YasinKostya
 6 - Tetiana Lesiv tatelesiv
 7 - Valeria Larchyk - LachykV
-8 - Karyna Bohoslovets Karina0615
+8 - Special cases aren't special enough to break the rules.
 9 - Yulianna Drok Yulianna22
 10 - Oleg Krupyak, Krupyak
 11 - Matvii Lukin - Cawa123qwe
 12 - Olha Moroz olha-moroz
 13 - Dmytro Shpak, shpakdmitriy
-14 - Maksym Shylov , shyma66
+14 - Although that way may not be obvious at first unless you're Dutch.
 15 - MorpheusFR Kirill Suprun
 16 - Although never is often better than *right* now.
 17 - PavloHavron Pavlo Havron
@@ -39,13 +39,13 @@ The Zen of Python, by Tim Peters
 37 - Kostiantyn Yasinskyi YasinKostya
 38 - Tetiana Lesiv tatelesiv
 39 - Valeria Larchyk - LachykV
-40 - Karyna Bohoslovets Karina0615
+40 - Simple is better than complex 
 41 - Yulianna Drok Yulianna22
 42 - Oleg Krupyak, Krupyak
 43 - Matvii Lukin - Cawa123qwe
 44 - Olha Moroz olha-moroz
 45 - Dmytro Shpak, shpakdmitriy
-46 - Maksym Shylov , shyma66
+46 - Although practicality beats purity.
 47 - MorpheusFR Kirill Suprun
 48 - Unless explicitly silenced.
 49 - PavloHavron Pavlo Havron
