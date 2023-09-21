@@ -1,4 +1,4 @@
-The Zen of Python, by Tim Peters
+The Zen gof Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
 2 - Anna Poshyta asanasa
