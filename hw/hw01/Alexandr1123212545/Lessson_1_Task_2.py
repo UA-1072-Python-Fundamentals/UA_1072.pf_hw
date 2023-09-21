@@ -4,9 +4,9 @@ def user_calculate(a: int, b: int):
         'difference.......': a - b, 
         'multiplication...': a * b, 
         'division.........': a / b, 
-        'exponentiation...': a ** b, 
-        'whole part.......': a // b, 
-        'remainder........': a % b
+        'exponent.........': a ** b, 
+        'integer division.': a // b, 
+        'modulus  ........': a % b
         }
     for name, action in result.items():
         print(name, action, end='\n')
