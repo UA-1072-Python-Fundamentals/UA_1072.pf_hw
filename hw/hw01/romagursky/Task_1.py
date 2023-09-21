@@ -8,4 +8,8 @@ print('a*b:' + str(a*b))
 print('a/b:' + str(a/b))
 print('a**b:' + str(a**b))
 print('a//b:' + str(a//b))
+<<<<<<< HEAD
 print('a%b:' + str(a%b))
+=======
+print('a%b:' + str(a%b))
+>>>>>>> a02b3ca (romangursky02)
