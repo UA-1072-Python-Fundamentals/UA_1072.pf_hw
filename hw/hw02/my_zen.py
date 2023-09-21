@@ -58,3 +58,7 @@ The Zen of Python, by Tim Peters
 54 - Nadiia Illiushyna, somniumtx
 55 - Spectrvq (Maksym Oposhnii)
 56 - user01
+
+YasinKostya
+6.Sparse is better than dense.
+37.If the implementation is easy to explain, it may be a good idea.
