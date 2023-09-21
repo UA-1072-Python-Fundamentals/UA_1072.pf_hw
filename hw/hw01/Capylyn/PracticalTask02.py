@@ -1,0 +1,10 @@
+a = int(input("Please enter A: "))
+b = int(input("Please enter B: "))
+
+print("A + B =", a+b)
+print("A - B =", a-b)
+print("A * B =", a*b)
+print("A / B =", a/b)
+print("A**B =", a**b)
+print("A//B =", a//b)
+print("A%B =", a%b)
