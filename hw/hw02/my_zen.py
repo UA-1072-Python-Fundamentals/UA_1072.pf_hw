@@ -17,7 +17,7 @@ The Zen of Python, by Tim Peters
 14 - Although that way may not be obvious at first unless you're Dutch.
 15 - MorpheusFR Kirill Suprun
 16 - Although never is often better than *right* now.
-17 - PavloHavron Pavlo Havron
+17 - If the implementation is hard to explain, it's a bad idea.
 18 - If the implementation is easy to explain, it may be a good idea.
 19 - Namespaces are one honking great idea -- let's do more of those!
 20 - Beautiful is better than ugly.
@@ -50,7 +50,7 @@ The Zen of Python, by Tim Peters
 46 - Although practicality beats purity.
 47 - MorpheusFR Kirill Suprun
 48 - Unless explicitly silenced.
-49 - PavloHavron Pavlo Havron
+49 - In the face of ambiguity, refuse the temptation to guess.
 50 - There should be one-- and preferably only one --obvious way to do it.
 51 - Although that way may not be obvious at first unless you're Dutch.
 52 - Now is better than never.
