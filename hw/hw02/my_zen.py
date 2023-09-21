@@ -4,7 +4,7 @@ The Zen of Python, by Tim Peters
 1 + Explicit is better than implicit.
 2 - Anna Poshyta asanasa
 3 - Markiian Dmytruk mrknd
-4 - Aleksandr Shevchenko, Alexandr1123212545
+4 - Complex is better than complicated.
 5 - Kostiantyn Yasinskyi YasinKostya
 6 - Tetiana Lesiv tatelesiv
 7 - Valeria Larchyk - LachykV
@@ -37,7 +37,7 @@ The Zen of Python, by Tim Peters
 33 + Although that way may not be obvious at first unless you're Dutch.
 34 - Anna Poshyta asanasa
 35 - Markiian Dmytruk mrknd
-36 - Aleksandr Shevchenko, Alexandr1123212545
+36 - If the implementation is hard to explain, it's a bad idea.
 37 - Kostiantyn Yasinskyi YasinKostya
 38 - Tetiana Lesiv tatelesiv
 39 - Valeria Larchyk - LachykV
