@@ -1,0 +1,5 @@
+a = (input("What is your name?"))
+b = (input("How old are you?"))
+c = (input("Where do you live?"))
+r = """Hello,{}.Your age is {}.You live in {}.""".format(a,b,c)
+print(r)
