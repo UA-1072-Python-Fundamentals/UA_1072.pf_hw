@@ -5,7 +5,7 @@ The Zen of Python, by Tim Peters
 3 - Markiian Dmytruk mrknd
 4 - Aleksandr Shevchenko, Alexandr1123212545
 5 - Kostiantyn Yasinskyi YasinKostya
-6 - Tetiana Lesiv tatelesiv
+6 - Sparse is better than dense.
 7 - Valeria Larchyk - LachykV
 8 - Special cases aren't special enough to break the rules.
 9 - Yulianna Drok Yulianna22
@@ -37,7 +37,7 @@ The Zen of Python, by Tim Peters
 35 - Markiian Dmytruk mrknd
 36 - Aleksandr Shevchenko, Alexandr1123212545
 37 - Kostiantyn Yasinskyi YasinKostya
-38 - Tetiana Lesiv tatelesiv
+38 - Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
 39 - Valeria Larchyk - LachykV
 40 - Simple is better than complex 
 41 - Yulianna Drok Yulianna22
