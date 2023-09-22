@@ -1,8 +1,8 @@
 The Zen of Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
-2 - Anna Poshyta asanasa
-3 - Simple is better than complex.
+2 - Explicit is better than implicit.
+3 - Markiian Dmytruk mrknd
 4 - Aleksandr Shevchenko, Alexandr1123212545
 5 - Kostiantyn Yasinskyi YasinKostya
 6 - Tetiana Lesiv tatelesiv
@@ -33,8 +33,8 @@ The Zen of Python, by Tim Peters
 31 - user08
 32 - Iryna Iasko - nickname:  Irarasta
 33 - Yevhen Malyna, Capylyn
-34 - Anna Poshyta asanasa
-35 - If the implementation is hard to explain, it's a bad idea.
+34 - Although that way may not be obvious at first unless you're Dutch.
+35 - Markiian Dmytruk mrknd
 36 - Aleksandr Shevchenko, Alexandr1123212545
 37 - Kostiantyn Yasinskyi YasinKostya
 38 - Tetiana Lesiv tatelesiv
