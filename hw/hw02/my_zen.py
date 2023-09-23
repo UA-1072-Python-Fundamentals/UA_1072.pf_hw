@@ -15,7 +15,7 @@ The Zen gof Python, by Tim Peters
 12 - In the face of ambiguity, refuse the temptation to guess.
 13 - Dmytro Shpak, shpakdmitriy
 14 - Although that way may not be obvious at first unless you're Dutch.
-15 - MorpheusFR Kirill Suprun
+15 - Now is better than never.
 16 - Although never is often better than *right* now.
 17 - If the implementation is hard to explain, it's a bad idea.
 18 - If the implementation is easy to explain, it may be a good idea.
@@ -48,7 +48,7 @@ The Zen gof Python, by Tim Peters
 44 - Readability counts.
 45 - Dmytro Shpak, shpakdmitriy
 46 - Although practicality beats purity.
-47 - MorpheusFR Kirill Suprun
+47 - Errors should never pass silently.
 48 - Unless explicitly silenced.
 49 - In the face of ambiguity, refuse the temptation to guess.
 50 - There should be one-- and preferably only one --obvious way to do it.
