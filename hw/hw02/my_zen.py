@@ -1,7 +1,6 @@
 The Zen gof Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
-1 + Explicit is better than implicit.
 2 - Explicit is better than implicit.
 3 - Markiian Dmytruk mrknd
 4 - Complex is better than complicated.
@@ -59,6 +58,3 @@ The Zen gof Python, by Tim Peters
 55 - Spectrvq (Maksym Oposhnii)
 56 - user01
 
-YasinKostya
-6.Sparse is better than dense.
-37.If the implementation is easy to explain, it may be a good idea.
