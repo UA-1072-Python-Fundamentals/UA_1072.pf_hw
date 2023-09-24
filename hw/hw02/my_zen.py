@@ -1,4 +1,4 @@
-The Zen gof Python, by Tim Peters
+The Zen of Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
 2 - Explicit is better than implicit.
