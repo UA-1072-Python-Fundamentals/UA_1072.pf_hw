@@ -7,7 +7,7 @@ The Zen gof Python, by Tim Peters
 4 - Complex is better than complicated.
 5 - Kostiantyn Yasinskyi YasinKostya
 6 - Sparse is better than dense.
-7 - Valeria Larchyk - LachykV
+7 - Readability counts.
 8 - Special cases aren't special enough to break the rules.
 9 - Although practicality beats purity.
 10 - Errors should never pass silently.
@@ -40,7 +40,7 @@ The Zen gof Python, by Tim Peters
 36 - If the implementation is hard to explain, it's a bad idea.
 37 - Kostiantyn Yasinskyi YasinKostya
 38 - Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
-39 - Valeria Larchyk - LachykV
+39 - Explicit is better than implicit.
 40 - Simple is better than complex 
 41 - Complex is better than complicated.
 42 - Flat is better than nested.
