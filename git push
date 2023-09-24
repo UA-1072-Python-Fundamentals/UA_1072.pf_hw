@@ -1,0 +1,270 @@
+[33mcommit f1c929cbc162326f1fa7b2e634c9683eb9c91b72[m[33m ([m[1;36mHEAD -> [m[1;32mNazarChyzh[m[33m, [m[1;32mmain[m[33m)[m
+Author: Nazar Chyzh <nazarchyzhet@gmail.com>
+Date:   Sun Sep 24 03:58:32 2023 +0300
+
+    added hw folders
+
+[33mcommit 2946b29905a1f09e95ac7ffabcd524f3d9e0014b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0e9713e 70be506
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:38:16 2023 +0300
+
+    Merge pull request #30 from UA-1072-Python-Fundamentals/update
+    
+    Update
+
+[33mcommit 0e9713e08b7dc8d5f21bea63b6b32f687834d9bf[m
+Merge: 5627b85 fc64df0
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:37:43 2023 +0300
+
+    Merge pull request #34 from UA-1072-Python-Fundamentals/Lesson_2
+    
+    Lesson 2
+
+[33mcommit 5627b859a7ea650fb7512c5a4070163b65f4291c[m
+Merge: a153571 2c21318
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:09:12 2023 +0300
+
+    Merge pull request #18 from UA-1072-Python-Fundamentals/Irarasta_lesson01-hv
+    
+    Add files via upload
+
+[33mcommit 2c213181b355df08e4481b03982b81bc19f99586[m
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:08:13 2023 +0300
+
+    fix path
+
+[33mcommit d69ba8c7d5db81194322e5922a43d7c7a524c9ae[m
+Merge: a8402c7 a153571
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:06:47 2023 +0300
+
+    Merge branch 'main' into Irarasta_lesson01-hv
+
+[33mcommit a1535719a077600b1cf700c61788adad09ee0edd[m
+Merge: 2415261 f57325a
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:05:53 2023 +0300
+
+    Merge pull request #32 from UA-1072-Python-Fundamentals/lesson03
+    
+    added lesson03
+
+[33mcommit f57325a422403123fdcd88359fadd5c4537d07f1[m[33m ([m[1;31morigin/lesson03[m[33m)[m
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 19:05:20 2023 +0300
+
+    added lesson03
+
+[33mcommit fc64df0cee41ab7aea4191d05f920f24f7b05ec3[m
+Author: Roma Gursky <romangursky02@gmail.com>
+Date:   Thu Sep 21 15:38:21 2023 +0200
+
+    romangursky02
+
+[33mcommit 70be50609c1fbde58af1e2cc4a0bb27dc8b279d7[m
+Author: Anna Poshyta <anna.poshyta@nure.ua>
+Date:   Thu Sep 21 14:13:37 2023 +0300
+
+    added screen
+
+[33mcommit 7375cb1ceaa894fb8503a1944caea94c18d27e25[m
+Author: Anna Poshyta <anna.poshyta@nure.ua>
+Date:   Thu Sep 21 14:01:29 2023 +0300
+
+    added folders and files
+
+[33mcommit 1b8dcd7897d9fee4b5e410eca4247969e3cf0335[m
+Author: Roma Gursky <romangursky02@gmail.com>
+Date:   Thu Sep 21 12:35:38 2023 +0200
+
+    add new folder
+
+[33mcommit 241526131d8f3493a3075598d4e29fa0699af5ec[m
+Merge: feac852 071da5c
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:55:13 2023 +0300
+
+    Merge pull request #27 from UA-1072-Python-Fundamentals/89619450screenshots
+    
+    89619450screenshots
+
+[33mcommit feac85246fc4cd5d40346d8c5fedec8b183ba55b[m
+Merge: 9d79206 c60fe5a
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:54:43 2023 +0300
+
+    Merge pull request #26 from UA-1072-Python-Fundamentals/Aleksandr_Sergeevich
+    
+    added hw Alexandr1123212545
+
+[33mcommit 9d7920671b8a94621b077a9be32d3ddd552877a8[m
+Merge: 5d2c709 1310a0c
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:54:24 2023 +0300
+
+    Merge pull request #25 from UA-1072-Python-Fundamentals/tatelesiv
+    
+    Tatelesiv
+
+[33mcommit 5d2c709dba1c7db357420b00db3380c094bffbee[m
+Merge: 1bbd7f5 f2de604
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:53:48 2023 +0300
+
+    Merge pull request #24 from UA-1072-Python-Fundamentals/PavloHavron/hw01
+    
+    “Added hw01”
+
+[33mcommit f2de6040d5b1d6f4b79623bfd9d3d31be114651c[m
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:53:26 2023 +0300
+
+    update
+
+[33mcommit 23265d1d3fb896a654dbec94c7c29d05003f18d8[m
+Merge: d68847c 1bbd7f5
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:52:03 2023 +0300
+
+    Merge branch 'main' into PavloHavron/hw01
+
+[33mcommit 1bbd7f5dd80b9786aedb3cd23045911a780d4f08[m
+Merge: 78e2791 24408ae
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:51:41 2023 +0300
+
+    Merge branch 'main' of https://github.com/UA-1072-Python-Fundamentals/UA_1072.pf_hw
+
+[33mcommit 78e2791e281cea482541f8ab124c53bc8576a37a[m
+Merge: 8706a2a 04c6f3e
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:49:04 2023 +0300
+
+    Merge pull request #21 from UA-1072-Python-Fundamentals/hw02_karina0615
+    
+    Hw02 karina0615
+
+[33mcommit 24408aed11ea9212b4aa6d082df678e74c8a5cd6[m
+Merge: 8706a2a 04c6f3e
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:49:04 2023 +0300
+
+    Merge pull request #21 from UA-1072-Python-Fundamentals/hw02_karina0615
+    
+    Hw02 karina0615
+
+[33mcommit 8706a2aacd2c75582ae70aadac50fb98fc4b0803[m
+Merge: b595b2a 536a70f
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:48:19 2023 +0300
+
+    Merge pull request #20 from UA-1072-Python-Fundamentals/Spectrvq_hw01
+    
+    Spectrvq hw01
+
+[33mcommit b595b2a7c148845d10caa6f22d4164d35e76a122[m
+Merge: 359e6f1 8c99cd6
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:47:53 2023 +0300
+
+    Merge pull request #19 from UA-1072-Python-Fundamentals/lesson_1
+    
+    added hw Alexandr1123212545
+
+[33mcommit 359e6f119772fd3ca5a90c59ebfd162ac1b4ef4f[m
+Merge: 489d0b1 8248574
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:45:21 2023 +0300
+
+    Merge branch 'main' of https://github.com/UA-1072-Python-Fundamentals/UA_1072.pf_hw
+
+[33mcommit 489d0b1a70a01ea00048873b976a63270b7a9437[m
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:45:06 2023 +0300
+
+    update readme
+
+[33mcommit 82485748e3dfa139cda9269878688385d07cb5ad[m
+Merge: f1f4b00 8e12548
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:40:38 2023 +0300
+
+    Merge pull request #16 from UA-1072-Python-Fundamentals/Krupyak
+    
+    Krupyak
+
+[33mcommit f1f4b008160d604c32cfc90d4c2524290b6e7c50[m
+Merge: fac67fa 4c00b85
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:38:55 2023 +0300
+
+    Merge pull request #15 from UA-1072-Python-Fundamentals/hw01
+    
+    Add hw01
+
+[33mcommit 4c00b8528581be66a71c2a3c62f5c19fa8016151[m
+Merge: 8c343fc fac67fa
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:37:00 2023 +0300
+
+    Merge branch 'main' into hw01
+
+[33mcommit fac67fa036f13c30b3d571dd8d2ca763f22a8f0b[m
+Merge: d4cd6e0 395e98a
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:35:04 2023 +0300
+
+    Merge pull request #14 from UA-1072-Python-Fundamentals/Diana_z_hw1
+    
+    Diana z hw1
+
+[33mcommit d4cd6e0df79d4cf878b740fae752e121be85890b[m
+Merge: ba6d80c beae338
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:33:36 2023 +0300
+
+    Merge pull request #13 from UA-1072-Python-Fundamentals/Lesson01_HM
+    
+    Lesson01 hm
+
+[33mcommit ba6d80c645424d615ce87832e9344debfca8e717[m
+Merge: d747524 33316fa
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:33:10 2023 +0300
+
+    Merge pull request #12 from UA-1072-Python-Fundamentals/lesson02_test
+    
+    added hw01
+
+[33mcommit d7475249d5aaca4d4a63d93e088e71c549c69d09[m
+Merge: cca2bd9 1f95d6a
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:32:51 2023 +0300
+
+    Merge pull request #11 from UA-1072-Python-Fundamentals/CapylynLesson01
+    
+    "practical tasks, lesson01"
+
+[33mcommit cca2bd9f502926912218857ab9f67fb74839fd37[m
+Merge: 09dea4f bff11fb
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:32:23 2023 +0300
+
+    Merge pull request #9 from UA-1072-Python-Fundamentals/lesson01_hw
+    
+    Lesson01 hw
+
+[33mcommit 09dea4f722cba813d4e2385beb47fa65aac6548b[m
+Merge: 6754ba0 f90cd1b
+Author: Liubomyr Halamaha <galamagal86@gmail.com>
+Date:   Thu Sep 21 12:32:02 2023 +0300
+
+    Merge pull request #8 from UA-1072-Python-Fundamentals/update
+    
+    added folders and files
+
+[33mcommit 6754ba0d2c14dc53
