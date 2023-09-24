@@ -28,7 +28,7 @@ The Zen of Python, by Tim Peters
 25 - user02
 26 - user03
 27 - user04
-28 - user05
+28 - Although practicality beats purity.
 29 - user06
 30 - user07
 31 - user08
