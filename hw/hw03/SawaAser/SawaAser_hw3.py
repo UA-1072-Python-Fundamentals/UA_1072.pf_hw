@@ -65,20 +65,26 @@ the_zen_of_python_by_Tim_Peters = """
 
 
 # Task1.1
-split_text = the_zen_of_python_by_Tim_Peters.split()
-count_better = 0
-count_never = 0
-count_is = 0
-for i in range(len(split_text)):
-    if split_text[i] == "better":
-        count_better += 1
-    elif split_text[i] == "never" or split_text[i] == "never.":
-        count_never += 1
-    elif split_text[i] == "is" or split_text[i] == "it's":
-        count_is += 1
-print(f"\nTask1.1:\nbetter = {count_better}")
-print(f"never = {count_never}")
-print(f"is = {count_is}\n")
+print("Task1.1")
+print(the_zen_of_python_by_Tim_Peters.count("better"))
+print(the_zen_of_python_by_Tim_Peters.count("never"))
+print(the_zen_of_python_by_Tim_Peters.count("is"))
+
+# incorrect but possible
+# split_text = the_zen_of_python_by_Tim_Peters.split()
+# count_better = 0
+# count_never = 0
+# count_is = 0
+# for i in range(len(split_text)):
+#     if split_text[i] == "better":
+#         count_better += 1
+#     elif split_text[i] == "never" or split_text[i] == "never.":
+#         count_never += 1
+#     elif split_text[i] == "is" or split_text[i] == "it's":
+#         count_is += 1
+# print(f"\nTask1.1:\nbetter = {count_better}")
+# print(f"never = {count_never}")
+# print(f"is = {count_is}\n")
 
 
 # Task1.2
@@ -112,7 +118,6 @@ print(f"\nTask2.2\nreserved_order: {reserved_order}")
 
 
 # Task2.3
-# sorted_list = []
 for j in range(len(specified_number)):
     for i in range(len(specified_number)-1):
         if specified_number[i] > specified_number[i+1]:
