@@ -8,7 +8,7 @@ The Zen of Python, by Tim Peters
 6 - Tetiana Lesiv tatelesiv
 7 - Valeria Larchyk - LachykV
 8 - Special cases aren't special enough to break the rules.
-9 - Yulianna Drok Yulianna22
+9 - Although practicality beats purity.
 10 - Oleg Krupyak, Krupyak
 11 - Matvii Lukin - Cawa123qwe
 12 - Olha Moroz olha-moroz
@@ -40,7 +40,7 @@ The Zen of Python, by Tim Peters
 38 - Tetiana Lesiv tatelesiv
 39 - Valeria Larchyk - LachykV
 40 - Simple is better than complex 
-41 - Yulianna Drok Yulianna22
+41 - Complex is better than complicated.
 42 - Oleg Krupyak, Krupyak
 43 - Matvii Lukin - Cawa123qwe
 44 - Olha Moroz olha-moroz
