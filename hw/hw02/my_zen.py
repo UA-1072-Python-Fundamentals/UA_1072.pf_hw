@@ -22,7 +22,7 @@ The Zen of Python, by Tim Peters
 20 - Beautiful is better than ugly.
 21 - andrii2323
 22 - Nadiia Illiushyna, somniumtx
-23 - Spectrvq (Maksym Oposhnii)
+23 - Complex is better than complicated.
 24 - user01
 25 - user02
 26 - user03
@@ -54,5 +54,5 @@ The Zen of Python, by Tim Peters
 52 - Now is better than never.
 53 - andrii2323
 54 - Nadiia Illiushyna, somniumtx
-55 - Spectrvq (Maksym Oposhnii)
+55 - If the implementation is easy to explain, it may be a good idea.
 56 - user01
