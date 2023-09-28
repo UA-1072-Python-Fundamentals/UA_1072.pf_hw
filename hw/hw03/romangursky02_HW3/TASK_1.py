@@ -1,6 +1,6 @@
- # TASK_1(1)
+# TASK_1(1)
 
-# Given input line
+
 p_philosophy = """
 1.Beautiful is better than ugly.
 2.Explicit is better than implicit.

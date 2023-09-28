@@ -26,4 +26,3 @@ if 1000 <= number <= 9999:
 
 else:
     print('Please enter a valid four-digit natural number.')
-
