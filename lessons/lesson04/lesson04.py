@@ -166,16 +166,26 @@ is_false = [False, 0, None, [], (), {}, ""]
 #
 
 # print("enter k")
-k = int(input("enter k"))
-if k % 2 == 0:
-    print("k is even")
-else:
-    print("k is odd")
-
-
+# k = int(input("enter k"))
+# if k % 2 == 0:
+#     print("k is even")
+# else:
+#     print("k is odd")
+#
+#
 _k = k/2-k//2
 print(k/2, _k, type(_k))
 if _k:
     print("k is odd")
 else:
     print("k is even")
+
+
+s = "ytdfvbk;jxfbvkfxnlvjdbsfkj"
+
+t = s.replace("y", "88")
+
+print(s)
+print(t)
+# a == b
+# a != b => not a == b
