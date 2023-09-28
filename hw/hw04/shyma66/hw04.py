@@ -9,5 +9,3 @@ match a :
         print(int(Fahrenheit),"°F")
 
 
-
-
