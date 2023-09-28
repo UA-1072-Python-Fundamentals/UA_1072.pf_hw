@@ -8,5 +8,3 @@ match a :
     case _ :
         print(int(Fahrenheit),"°F")
 
-
-
