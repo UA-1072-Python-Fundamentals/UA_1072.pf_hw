@@ -1,7 +1,7 @@
 The Zen of Python, by Tim Peters
 
 1 - Yevhen Malyna, Capylyn
-2 - Anna Poshyta asanasa
+2 - Explicit is better than implicit.
 3 - Markiian Dmytruk mrknd
 4 - Aleksandr Shevchenko, Alexandr1123212545
 5 - Kostiantyn Yasinskyi YasinKostya
@@ -13,16 +13,16 @@ The Zen of Python, by Tim Peters
 11 - Matvii Lukin - Cawa123qwe
 12 - Olha Moroz olha-moroz
 13 - Dmytro Shpak, shpakdmitriy
-14 - Maksym Shylov , shyma66
+14 - Although that way may not be obvious at first unless you're Dutch.
 15 - MorpheusFR Kirill Suprun
 16 - Although never is often better than *right* now.
 17 - PavloHavron Pavlo Havron
 18 - If the implementation is easy to explain, it may be a good idea.
 19 - Namespaces are one honking great idea -- let's do more of those!
-20 - shtvlad, Vladislav Shtanhei
+20 - Beautiful is better than ugly.
 21 - andrii2323
 22 - Nadiia Illiushyna, somniumtx
-23 - Spectrvq (Maksym Oposhnii)
+23 - Complex is better than complicated.
 24 - user01
 25 - user02
 26 - user03
@@ -33,7 +33,7 @@ The Zen of Python, by Tim Peters
 31 - user08
 32 - Iryna Iasko - nickname:  Irarasta
 33 - Yevhen Malyna, Capylyn
-34 - Anna Poshyta asanasa
+34 - Although that way may not be obvious at first unless you're Dutch.
 35 - Markiian Dmytruk mrknd
 36 - Aleksandr Shevchenko, Alexandr1123212545
 37 - Kostiantyn Yasinskyi YasinKostya
@@ -45,14 +45,14 @@ The Zen of Python, by Tim Peters
 43 - Matvii Lukin - Cawa123qwe
 44 - Olha Moroz olha-moroz
 45 - Dmytro Shpak, shpakdmitriy
-46 - Maksym Shylov , shyma66
+46 - Although practicality beats purity.
 47 - MorpheusFR Kirill Suprun
 48 - Unless explicitly silenced.
 49 - PavloHavron Pavlo Havron
 50 - There should be one-- and preferably only one --obvious way to do it.
 51 - Although that way may not be obvious at first unless you're Dutch.
-52 - shtvlad, Vladislav Shtanhei
+52 - Now is better than never.
 53 - andrii2323
 54 - Nadiia Illiushyna, somniumtx
-55 - Spectrvq (Maksym Oposhnii)
+55 - If the implementation is easy to explain, it may be a good idea.
 56 - user01
