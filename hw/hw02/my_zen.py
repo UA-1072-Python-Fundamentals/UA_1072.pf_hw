@@ -11,7 +11,7 @@ The Zen gof Python, by Tim Peters
 8 - Special cases aren't special enough to break the rules.
 9 - Although practicality beats purity.
 10 - Errors should never pass silently.
-11 - Matvii Lukin - Cawa123qwe
+11 - Unless explicitly silenced.
 12 - In the face of ambiguity, refuse the temptation to guess.
 13 - Dmytro Shpak, shpakdmitriy
 14 - Although that way may not be obvious at first unless you're Dutch.
@@ -44,7 +44,7 @@ The Zen gof Python, by Tim Peters
 40 - Simple is better than complex 
 41 - Complex is better than complicated.
 42 - Flat is better than nested.
-43 - Matvii Lukin - Cawa123qwe
+43 - Sparse is better than dense.
 44 - Readability counts.
 45 - Dmytro Shpak, shpakdmitriy
 46 - Although practicality beats purity.
