@@ -5,4 +5,4 @@ if celsius >= -273.15:
     print(f"{celsius} °C is equivalent to {fahrenheit} F")
 
 else:
-    print("Error: Temperature below absolute zero (-273.15°C)")
+    print("Error:\nTemperature below absolute zero (-273.15°C)")
