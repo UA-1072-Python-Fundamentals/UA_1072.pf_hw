@@ -10,7 +10,7 @@ The Zen of Python, by Tim Peters
 8 - Special cases aren't special enough to break the rules.
 9 - Yulianna Drok Yulianna22
 10 - Oleg Krupyak, Krupyak
-11 - Matvii Lukin - Cawa123qwe
+11 - Unless explicitly silenced.
 12 - Olha Moroz olha-moroz
 13 - Dmytro Shpak, shpakdmitriy
 14 - Maksym Shylov , shyma66
@@ -42,7 +42,7 @@ The Zen of Python, by Tim Peters
 40 - Simple is better than complex 
 41 - Yulianna Drok Yulianna22
 42 - Oleg Krupyak, Krupyak
-43 - Matvii Lukin - Cawa123qwe
+43 - Sparse is better than dense.
 44 - Olha Moroz olha-moroz
 45 - Dmytro Shpak, shpakdmitriy
 46 - Maksym Shylov , shyma66
