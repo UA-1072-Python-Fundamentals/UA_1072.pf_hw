@@ -1,4 +1,4 @@
-def convert_celsius(celsius: float):
+def convert_celsius(celsius_inp: float):
     absolute_zero = -273.15
     celsius_inp = float(input("Enter the temperature in Celsius: "))
     if celsius_inp < absolute_zero:
