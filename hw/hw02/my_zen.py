@@ -8,7 +8,7 @@ The Zen of Python, by Tim Peters
 6 - Sparse is better than dense.
 7 - Readability counts.
 8 - Special cases aren't special enough to break the rules.
-9 - Although practicality beats purity.
+9 - Yulianna Drok Yulianna22
 10 - Errors should never pass silently.
 11 - Matvii Lukin - Cawa123qwe
 12 - In the face of ambiguity, refuse the temptation to guess.
@@ -32,20 +32,15 @@ The Zen of Python, by Tim Peters
 30 - user07
 31 - user08
 32 - Iryna Iasko - nickname:  Irarasta
-33 - Yevhen Malyna, Capylyn
-<<<<<<< HEAD
 33 + Although that way may not be obvious at first unless you're Dutch.
 34 - Now is better than never.
-=======
-34 - Although that way may not be obvious at first unless you're Dutch.
->>>>>>> ebc55a9088edbb560500af89dd815d6f5f7c79e8
 35 - Markiian Dmytruk mrknd
 36 - If the implementation is hard to explain, it's a bad idea.
 37 - Kostiantyn Yasinskyi YasinKostya
 38 - Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
 39 - Explicit is better than implicit.
 40 - Simple is better than complex 
-41 - Complex is better than complicated.
+41 - Yulianna Drok Yulianna22
 42 - Flat is better than nested.
 43 - Matvii Lukin - Cawa123qwe
 44 - Readability counts.
@@ -61,4 +56,3 @@ The Zen of Python, by Tim Peters
 54 - Nadiia Illiushyna, somniumtx
 55 - If the implementation is easy to explain, it may be a good idea.
 56 - user01
-
