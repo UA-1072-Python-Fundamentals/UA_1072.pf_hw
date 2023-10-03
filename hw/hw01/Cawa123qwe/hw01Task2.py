@@ -1,0 +1,10 @@
+A = int(input("What's number one is?: "))
+B = int(input("What's number two is?: "))
+
+print(f"A+B: {A + B}")
+print(f"A-B: {A - B}")
+print(f"A*B: {A * B}")
+print(f"A/B: {A / B}")
+print(f"A**B: {A ** B}")
+print(f"A//B: {A // B}")
+print(f"A%B: {A % B}")
