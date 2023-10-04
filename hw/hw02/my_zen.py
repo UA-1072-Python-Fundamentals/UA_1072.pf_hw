@@ -31,7 +31,7 @@ The Zen gof Python, by Tim Peters
 28 - user05
 29 - user06
 30 - user07
-31 - user08
+31 - Oleksandr Klochko: In the face of ambiguity, refuse the temptation to guess.
 32 - Iryna Iasko - nickname:  Irarasta
 33 - Yevhen Malyna, Capylyn
 33 + Although that way may not be obvious at first unless you're Dutch.
