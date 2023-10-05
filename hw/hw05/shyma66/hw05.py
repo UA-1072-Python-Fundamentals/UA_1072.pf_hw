@@ -41,4 +41,3 @@ def factorial(n):
 print("Factorial of ", factor ,"is", factorial(factor))
 
 
-
