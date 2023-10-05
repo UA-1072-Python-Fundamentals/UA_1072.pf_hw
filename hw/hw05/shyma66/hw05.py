@@ -1,40 +1,42 @@
-# TASK_1
-# l = [1, 2, 5, 7, 4, 3, 8]
-# for i in range(len(l)):
-#     l[i]=float(l[i])
-# print(l)
+#Task01
+
+# my_list = ['21', 321, '03', '324', '0.55', '4', '9', 3 , 0.4]
 #
-# TASK_2_v1
-# n = int(input("Input number: "))
-# fib_l=[]
-# cnt=0
-# while cnt<=n:
-#     if cnt<2:
-#         fib_l.append(cnt)
-#     else:
-#         s=fib_l[cnt-2]+fib_l[cnt-1]
-#         fib_l.append(s)
-#     cnt += 1
-# print(fib_l)
+# for i in my_list:
+#     print(float(i))
+
+#Task02
+
+# n = int(input("Please write your number"))
 #
-# TASK_2_v2
-# n = int(input("Input number: "))
-# f1=0
-# f2=1
-# print(f1, f2, end=" ")
-# cnt=0
-# while cnt<n-2:
-#     f_sum=f1+f2
-#     f1=f2
-#     f2=f_sum
-#     cnt += 1
-#     print(f_sum,end=" ")
+# x, y = 0, 1
+# count = 0
 #
-# TASK_3
-n=int(input("Factorial number: "))
-f=0
-sum_f=1
-for f in range(1,n+1):
-    sum_f=sum_f*f
-    f+=1
-print(f"{n}!=",sum_f)
+# if n <= 0:
+#    print("Please enter a positive integer")
+#
+# elif n == 1:
+#    print("Fibonacci sequence upto",n,":")
+#    print(x)
+#
+# else:
+#    print("Fibonacci sequence:")
+#    while count < n:
+#        print(x , end=" ")
+#        nth = x + y
+#        x = y
+#        y = nth
+#        count += 1
+
+
+#Task03
+
+# from math import factorial
+factor = int(input("Your number >> " ))
+
+# print("Factorial is", factorial(factor))
+def factorial(n):
+    return 1 if (n ==1 or n==0) else n * factorial(n -1)
+
+print("Factorial of ", factor ,"is", factorial(factor))
+
