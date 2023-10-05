@@ -228,14 +228,14 @@ The Zen of Python, by Tim Peters
 # print(f"Hello, {name}!")
 
 
-# s = 'programiz'
+s = 'programiz'
 # print(s)
 # print(s[0])
 # print(s[len(s) - 1])
 # print(s[-1])
 # print(s[1:5])
 # print(s[1:-1])
-# print(s[1:-1:2])
+print(s[5::-1])
 
 
 # print(dir(str))
