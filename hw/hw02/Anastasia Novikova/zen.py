@@ -25,7 +25,7 @@ The Zen of Python, by Tim Peters
 23 - Complex is better than complicated.
 24 - user01
 25 - user02
-26 - user03
+26 - Readability counts.
 27 - user04
 28 - Although practicality beats purity.
 29 - user06
