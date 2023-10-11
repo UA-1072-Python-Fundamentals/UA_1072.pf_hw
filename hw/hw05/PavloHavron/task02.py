@@ -5,7 +5,3 @@ while f+s <= num:
     third = f + s
     print(third)
     f,s=s,third
-   
-
-
-
