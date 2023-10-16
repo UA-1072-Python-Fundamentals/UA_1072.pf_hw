@@ -1,3 +1,5 @@
+print("Task1 -> ", __name__)
+
 zen = '''1.Beautiful is better than ugly.
 2.Explicit is better than implicit.
 3.Simple is better than complex.
