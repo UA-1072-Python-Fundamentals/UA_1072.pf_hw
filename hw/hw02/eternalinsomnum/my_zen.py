@@ -26,7 +26,7 @@ The Zen of Python, by Tim Peters
 24 - user01
 25 - user02
 26 - user03
-27 - user04
+27 - Special cases arent special  enough to break the rules 
 28 - Although practicality beats purity.
 29 - user06
 30 - user07
@@ -56,3 +56,4 @@ The Zen of Python, by Tim Peters
 54 - Nadiia Illiushyna, somniumtx
 55 - If the implementation is easy to explain, it may be a good idea.
 56 - user01
+1231
