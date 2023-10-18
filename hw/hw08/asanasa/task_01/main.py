@@ -1,5 +1,4 @@
 from utils import *
 from models import *
-modules = [m for m in dir() if not m.startswith('_')]
-print(modules)
+print(list(filter(lambda s: "__" not in s, dir())))
 
