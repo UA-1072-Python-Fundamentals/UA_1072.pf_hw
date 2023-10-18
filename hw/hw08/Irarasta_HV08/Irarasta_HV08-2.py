@@ -21,7 +21,7 @@ while True:
         print('Invalid password.\n'
               '***********************\n'
               'Password must contain:\n'
-              'Upper and Lowercas,\n'
+              'Upper and Lowercase,\n'
               'numbers 0-9, symbols $#@,\n'
               'min 6 to max 16 symbols.')
         print('****************************')
@@ -40,7 +40,7 @@ while True:
 #     else:
 #         return False
 # while True:
-#     password = input('Enter correct password.\n'
+#     password = input('Enter password.\n'
 #                  'Password must contain - \n'
 #                  'Upper and Lowercas,\n'
 #                  'numbers 0-9, symbols $#@,\n'
