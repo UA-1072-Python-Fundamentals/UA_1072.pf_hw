@@ -59,7 +59,7 @@ while running:
 
     screen.fill(BACKGROUND_COLOR)
 
-    play_game_text = FONT.render("Guess the number in only 10 tries!", True, TEXT_COLOR)
+    play_game_text = FONT.render("Guess the number between 1 and 100 in only 10 tries!", True, TEXT_COLOR)
     screen.blit(play_game_text, (10, 10))
 
     text = FONT.render(message, True, TEXT_COLOR)
