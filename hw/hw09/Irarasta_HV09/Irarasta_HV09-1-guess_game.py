@@ -1,4 +1,3 @@
-  ## Guess game with 10 tries:
 import pygame
 import random
 
@@ -17,7 +16,7 @@ ATTEMPTS = 10
 attempts = 0
 guess = None
 message = ""
-attempt_counter = f"Attempts left: {ATTEMPTS}"
+attempt_counter = f"Tries left: {ATTEMPTS}"
 your_guess = "Your guess: "
 
 running = True
@@ -52,7 +51,7 @@ while running:
                         if attempts >= ATTEMPTS and not game_over:
                             message = f"Sorry, but you lose! I WIN! My number was {TARGET_NUMBER}."
                             game_over = True
-                    attempt_counter = f"Attempts left: {ATTEMPTS - attempts}"
+                    attempt_counter = f"Tries left: {ATTEMPTS - attempts}"
 
                 elif event.key == pygame.K_BACKSPACE:
                     if guess is not None:
@@ -60,7 +59,7 @@ while running:
 
     screen.fill(BACKGROUND_COLOR)
 
-    play_game_text = FONT.render("Play a Guess Game with me!", True, TEXT_COLOR)
+    play_game_text = FONT.render("Guess the number in only 10 tries!", True, TEXT_COLOR)
     screen.blit(play_game_text, (10, 10))
 
     text = FONT.render(message, True, TEXT_COLOR)
@@ -79,5 +78,6 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
 
 
