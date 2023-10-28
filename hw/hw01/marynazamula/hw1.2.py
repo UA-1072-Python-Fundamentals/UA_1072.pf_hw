@@ -1,5 +1,5 @@
 a = float(input("Enter  first number\n"))
-b = float(input("Enter secon number\n"))
+b = float(input("Enter second number\n"))
 print()
 print("A + B =", a + b)
 print("A - B =", a - b)
