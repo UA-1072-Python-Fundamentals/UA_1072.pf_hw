@@ -179,64 +179,110 @@
 #
 # scope_func()
 # print(x)
+#
+# x = "global"
+#
+#
+# def outer():
+#     x = "local"
+#
+#     def inner():
+#         nonlocal x
+#         x = "non local"
+#         print(x)
+#     inner()
+#     print(x)
+#
+#
+# outer()
+# print(x)
+#
+# print("="*20)
+#
+# x = "global"
+#
+#
+# def outer():
+#     x = "local"
+#
+#     def inner():
+#         global x
+#         x = "non local"
+#         print(x)
+#     inner()
+#     print(x)
+#
+#
+# outer()
+# print(x)
+#
+#
+#
+# print("="*20)
+#
+# x = "global"
+#
+#
+# def outer():
+#     x = "local"
+#
+#     def inner():
+#         nonlocal x
+#         x = "non local"
+#         print(x)
+#     inner()
+#     print(x)
+#
+#
+# outer()
+# print(x)
+
+# import sys
+# sys.setrecursionlimit(2000)
+# def rec(in_param):
+#     print(in_param)
+#     rec(in_param+1)
+#
+#
+# rec(1)
+
+def fibo1(n):
+    f = [1, 1]
+    i = 2
+    while n >= len(f):
+        f.append(f[i - 1] + f[i - 2])
+        i += 1
+    return f[n]
 
 
-x = "global"
+# for i in range(10):
+#     print(i, fibo(i))
+#
+# def fibo2(n):
+#     if n == 1 or n == 0:
+#         return 1
+#     else:
+#         return fibo2(n - 1) + fibo2(n - 2)
+#
+#
+# for i in range(10):
+#     print(f"{i}\t{fibo1(i)}\t{fibo2(i)}")
 
 
-def outer():
-    x = "local"
-
-    def inner():
-        nonlocal x
-        x = "non local"
-        print(x)
-    inner()
-    print(x)
+l = [1, "5", 3, "76", 89, "2", 6, 9]
+print(l)
 
 
-outer()
-print(x)
-
-print("="*20)
-
-x = "global"
+def str_to_int(n):
+    return int(n)
 
 
-def outer():
-    x = "local"
+l.sort(key=str_to_int)
+print(l)
+l.sort(key=lambda x: -int(x))
+print(l)
 
-    def inner():
-        global x
-        x = "non local"
-        print(x)
-    inner()
-    print(x)
-
-
-outer()
-print(x)
-
-
-
-print("="*20)
-
-x = "global"
-
-
-def outer():
-    x = "local"
-
-    def inner():
-        nonlocal x
-        x = "non local"
-        print(x)
-    inner()
-    print(x)
-
-
-outer()
-print(x)
-
-
+f = lambda a, b: a+b; print("end")
+print(f)
+f(1,2)
 
