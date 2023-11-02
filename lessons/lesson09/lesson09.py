@@ -30,8 +30,8 @@ r, g, b = 0, 0, 0
 done = False
 figures = []
 pointlist = []
-text = font.render("My text", True, colors["Black"])
-point = [400, 400]
+text = font.render("Congratilations", True, colors["Black"])
+point = [100, 100]
 KEYDOWN = False
 
 

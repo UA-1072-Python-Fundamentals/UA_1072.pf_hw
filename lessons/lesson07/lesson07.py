@@ -179,7 +179,6 @@
 #
 # scope_func()
 # print(x)
-
 #
 # x = "global"
 #
@@ -286,3 +285,4 @@ print(l)
 f = lambda a, b: a+b; print("end")
 print(f)
 f(1,2)
+
