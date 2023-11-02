@@ -1,0 +1,10 @@
+1,Alice, 30, New York
+2,Bob, 25, Los Angeles
+3,Charlie, 35, Chicago
+f,David, 28, Houston
+5,Eve, 22, Miami
+6,Frank, 40, Seattle
+7,Grace, f, Boston
+8,Henry, 32, San Francisco
+9,Ivy, 27, Denver
+10,Jack, 38, Phoenix

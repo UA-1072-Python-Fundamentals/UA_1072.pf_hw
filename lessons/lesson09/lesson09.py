@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-gameDisplay = pygame.display.set_mode((1200, 900))
+gameDisplay = pygame.display.set_mode((900, 600))
 pygame.display.set_caption('My first game')
 font = pygame.font.SysFont('Calibri', 25, True, False)
 
@@ -30,7 +30,7 @@ r, g, b = 0, 0, 0
 done = False
 figures = []
 pointlist = []
-text = font.render("My text", True, colors["Black"])
+text = font.render("Congratilations", True, colors["Black"])
 point = [100, 100]
 KEYDOWN = False
 
