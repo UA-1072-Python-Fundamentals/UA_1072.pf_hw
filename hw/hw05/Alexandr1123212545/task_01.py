@@ -1,4 +1,4 @@
-# Option_1
+g# Option_1
 
 length_list = int(input('Enter list length -> '))
 some_list = list(range(length_list))
@@ -6,8 +6,8 @@ print(some_list)
 for i in range(len(some_list)):
     some_list[i] = float(i)
 print(some_list)
-
 # Option 2
+
 length_list = int(input('Enter list length -> '))
 some_list = list(range(length_list))
 print(some_list)
