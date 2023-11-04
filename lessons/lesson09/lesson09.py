@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-gameDisplay = pygame.display.set_mode((1200, 900))
+gameDisplay = pygame.display.set_mode((900, 600))
 pygame.display.set_caption('My first game')
 font = pygame.font.SysFont('Calibri', 25, True, False)
 
