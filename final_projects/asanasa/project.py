@@ -1,4 +1,8 @@
+from tkinter import *
 import tkinter as tk
+from tkinter import Canvas
+
+
 
 # Список питань і варіантів відповідей
 questions = {
@@ -11,34 +15,34 @@ questions = {
 
 answer_options = {
     "1": {
-        "A": "Спокійний і обдуманий.",
-        "B": "Товариський і дружелюбний.",
-        "C": "Енергійний і веселий.",
-        "D": "Оптимістичний і творчий."
+        "A1": "Спокійний і обдуманий.",
+        "B1": "Товариський і дружелюбний.",
+        "C1": "Енергійний і веселий.",
+        "D1": "Оптимістичний і творчий."
     },
     "2": {
-        "A": "Аналітичний і мислитель.",
-        "B": "Емоційний і комунікабельний.",
-        "C": "Енергійний і активний.",
-        "D": "Оптимістичний і підприємливий."
+        "A2": "Аналітичний і мислитель.",
+        "B2": "Емоційний і комунікабельний.",
+        "C2": "Енергійний і активний.",
+        "D2": "Оптимістичний і підприємливий."
     },
     "3": {
-        "A": "Духовний розвиток і самопізнання.",
-        "B": "Стосунки з близькими і друзями.",
-        "C": "Фізичне здоров'я та фізична активність.",
-        "D": "Досягнення особистих і професійних цілей."
+        "A3": "Духовний розвиток і самопізнання.",
+        "B3": "Стосунки з близькими і друзями.",
+        "C3": "Фізичне здоров'я та фізична активність.",
+        "D3": "Досягнення особистих і професійних цілей."
     },
     "4": {
-        "A": "Осінь, коли можна усамітнитися і міркувати.",
-        "B": "Весна, коли природа прокидається, і можна проводити час з друзями.",
-        "C": "Літо, коли можна займатися спортом та бути на свіжому повітрі.",
-        "D": "Зима, коли можна святкувати та створювати нові плани."
+        "A4": "Осінь, коли можна усамітнитися і міркувати.",
+        "B4": "Весна, коли природа прокидається, і можна проводити час з друзями.",
+        "C4": "Літо, коли можна займатися спортом та бути на свіжому повітрі.",
+        "D4": "Зима, коли можна святкувати та створювати нові плани."
     },
     "5": {
-        "A": "Глибокий синій.",
-        "B": "Яскравий червоний.",
-        "C": "Палаючий помаранчевий.",
-        "D": "Світло-зелений."
+        "A5": "Глибокий синій.",
+        "B5": "Яскравий червоний.",
+        "C5": "Палаючий помаранчевий.",
+        "D5": "Світло-зелений."
     }
 }
 
@@ -52,6 +56,7 @@ results = {
     "D": "Ваш талісман - Аметист, символ оптимізму та нових початків."
 }
 
+
 current_question = 0  # Змінна для відстеження поточного питання
 
 selected_answers = [None] * len(questions)
@@ -61,24 +66,33 @@ radio_buttons = []
 def start_test():
     start_button.pack_forget()  # Приховуємо кнопку старту
     display_question()
+    # Створюємо фрейм для кнопки "Відповісти"
+    button_frame = tk.Frame(main_frame)
+    button_frame.pack(side="bottom", pady=100)
 
+    # Створюємо кнопку "Відповісти" у фреймі
+    answer_button = tk.Button(button_frame, text="Відповісти", font=("Helvetica", 14), command=next_question)
+    answer_button.pack()
 def answer_selected(value):
     selected_answers[current_question] = value
 
+
 def display_question():
     question_label.config(text=questions[str(current_question + 1)])
+    question_label.pack(pady=30)
+
     for i, (option_key, option_value) in enumerate(answer_options[str(current_question + 1)].items()):
         radio_button = tk.Radiobutton(
-            window,
+            main_frame,
             text=option_value,
             variable=selected_answers[current_question],
             value=option_key,
             font=("Helvetica", 12),
-            command=lambda value=option_key: answer_selected(value)
+            command=lambda value=option_key: answer_selected(value),
+            tristatevalue=current_question*4+1
         )
         radio_buttons.append(radio_button)
         radio_button.pack()
-    answer_button.pack()
 
 
 def next_question():
@@ -86,59 +100,84 @@ def next_question():
     if current_question < len(questions) - 1:
         current_question += 1
         for radio_button in radio_buttons:
-            radio_button.destroy()  # Удаляем радиокнопки
+            radio_button.destroy()
         display_question()
     else:
         show_result()
-        print(selected_answers)  # Выводим selected_answers в консоль
-
-
-def show_result():
-    # Оценка ответов
-    scores = {'A': 0, 'B': 0, 'C': 0, 'D': 0}
-
-    for answer in selected_answers:
-        if answer:
-            scores[answer] += 1
-
-    # Находим максимальный результат
-    max_score = max(scores.values())
-
-    # Определяем результат теста
-    result = ""
-    for option, score in scores.items():
-        if score == max_score:
-            result = results[option]
-            break
-
-    # Выводим результат в новом окне
-    result_window = tk.Toplevel(window)
-    result_window.title("Результат тесту")
-    result_label = tk.Label(result_window, text=result, font=("Helvetica", 14), wraplength=500)
-    result_label.pack()
-    result_window.mainloop()
+        print(selected_answers)
 
 # Створюємо головне вікно
-window = tk.Tk()
+window = Tk()
 window.geometry("600x400")
 window.title("Тест: Який талісман підходить саме вам?")
 
+result_images = {
+    "A": PhotoImage(file="sphir.png"),
+    "B": PhotoImage(file="jemj.png"),
+    "C": PhotoImage(file="kristal.png"),
+    "D": PhotoImage(file="ametist.png")
+}
+def show_result():
+
+    global image_path
+    option_scores = {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0
+    }
+
+    for selected_option in selected_answers:
+        if selected_option:
+            option_key = selected_option[0]
+            option_scores[option_key] += 1
+
+
+    max_score = max(option_scores.values())
+    result = ""
+    for option, score in option_scores.items():
+        if score == max_score:
+            result = results[option]
+            print(result)
+            image_path = result_images[option]  # Получаем путь к изображению
+            break
+
+
+    result_window = tk.Toplevel(window)
+    result_window.geometry("600x450")
+    result_window.title("Результат тесту")
+    result_label = tk.Label(result_window, text=result, font=("Helvetica", 14), wraplength=500)
+    result_label.pack()
+
+    image_path = image_path.subsample(2, 2)
+    image_label = Label(result_window)
+    image_label.image = image_path
+    image_label['image'] = image_label.image
+    image_label.pack()
+    image_label.place(x=100, y=50)
+
+    result_window.mainloop()
+
+
+background_image = PhotoImage(file="fon.png")
+canvas = tk.Canvas(window, width=600, height=400)
+canvas.pack()
+canvas.create_image(0, 0, anchor="nw", image=background_image)
+
+main_frame = tk.Frame(window)
+main_frame.place(relx=0.5, rely=0.5, anchor="center")
+
 # Створюємо мітку для назви тесту
-title_label = tk.Label(window, text="Тест: Який талісман підходить саме вам?", font=("Helvetica", 16))
+title_label = tk.Label(main_frame, text="Тест: Який талісман підходить саме вам?", font=("Helvetica", 16))
 title_label.pack()
 
 # Створюємо кнопку для початку тесту
-start_button = tk.Button(window, text="Пройти тест", command=start_test, font=("Helvetica", 14))
+start_button = tk.Button(main_frame, text="Пройти тест", command=start_test, font=("Helvetica", 14))
 start_button.pack()
 
 # Створюємо мітку для питання
-question_label = tk.Label(window, text="", anchor="w", font=("Helvetica", 12))
+question_label = tk.Label(main_frame, text="", anchor="w", font=("Helvetica", 12))
 question_label.pack()
-
-
-
-# Створюємо кнопку для перевірки відповіді
-answer_button = tk.Button(window, text="Відповісти", font=("Helvetica", 14), command=next_question)
 
 # Запускаємо Tkinter event loop
 window.mainloop()
