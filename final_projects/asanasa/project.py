@@ -1,8 +1,6 @@
 from tkinter import *
 import tkinter as tk
-from tkinter import Canvas
-
-
+from tkinter import Canvas, messagebox
 
 # Список питань і варіантів відповідей
 questions = {
@@ -46,8 +44,6 @@ answer_options = {
     }
 }
 
-
-
 # Результати тесту
 results = {
     "A": "Ваш талісман - Сапфір, символ мудрості та внутрішньої рівноваги.",
@@ -56,11 +52,8 @@ results = {
     "D": "Ваш талісман - Аметист, символ оптимізму та нових початків."
 }
 
-
 current_question = 0  # Змінна для відстеження поточного питання
-
 selected_answers = [None] * len(questions)
-
 radio_buttons = []
 
 def start_test():
@@ -71,11 +64,21 @@ def start_test():
     button_frame.pack(side="bottom", pady=100)
 
     # Створюємо кнопку "Відповісти" у фреймі
-    answer_button = tk.Button(button_frame, text="Відповісти", font=("Helvetica", 14), command=next_question)
+    answer_button = tk.Button(
+        button_frame,
+        text="Відповісти",
+        font=("Helvetica", 14),
+        command=next_question,
+        image=background_image,
+        compound="center",
+        width=200,
+        height=50,
+        bd=4,
+        highlightthickness=4
+    )
     answer_button.pack()
 def answer_selected(value):
     selected_answers[current_question] = value
-
 
 def display_question():
     question_label.config(text=questions[str(current_question + 1)])
@@ -89,14 +92,20 @@ def display_question():
             value=option_key,
             font=("Helvetica", 12),
             command=lambda value=option_key: answer_selected(value),
-            tristatevalue=current_question*4+1
+            tristatevalue=current_question*4+1,
+            bg="LightSkyBlue"
         )
         radio_buttons.append(radio_button)
         radio_button.pack()
 
-
 def next_question():
     global current_question
+    selected_option = selected_answers[current_question]
+
+    if not selected_option:
+        tk.messagebox.showerror("Error", "Оберіть хоча б один варіант відповіді.")
+        return
+
     if current_question < len(questions) - 1:
         current_question += 1
         for radio_button in radio_buttons:
@@ -118,7 +127,6 @@ result_images = {
     "D": PhotoImage(file="ametist.png")
 }
 def show_result():
-
     global image_path
     option_scores = {
         "A": 0,
@@ -126,12 +134,10 @@ def show_result():
         "C": 0,
         "D": 0
     }
-
     for selected_option in selected_answers:
         if selected_option:
             option_key = selected_option[0]
             option_scores[option_key] += 1
-
 
     max_score = max(option_scores.values())
     result = ""
@@ -139,14 +145,22 @@ def show_result():
         if score == max_score:
             result = results[option]
             print(result)
-            image_path = result_images[option]  # Получаем путь к изображению
+            image_path = result_images[option]
             break
-
 
     result_window = tk.Toplevel(window)
     result_window.geometry("600x450")
     result_window.title("Результат тесту")
-    result_label = tk.Label(result_window, text=result, font=("Helvetica", 14), wraplength=500)
+    result_label = tk.Label(
+        result_window,
+        text=result,
+        font=("Helvetica", 14),
+        wraplength=500,
+        image=background_image,
+        compound="center",
+        width=600,
+        height=50
+    )
     result_label.pack()
 
     image_path = image_path.subsample(2, 2)
@@ -154,7 +168,7 @@ def show_result():
     image_label.image = image_path
     image_label['image'] = image_label.image
     image_label.pack()
-    image_label.place(x=100, y=50)
+    image_label.place(x=100, y=60)
 
     result_window.mainloop()
 
@@ -166,17 +180,47 @@ canvas.create_image(0, 0, anchor="nw", image=background_image)
 
 main_frame = tk.Frame(window)
 main_frame.place(relx=0.5, rely=0.5, anchor="center")
+background_label = tk.Label(main_frame, image=background_image)
+background_label.place(relwidth=1, relheight=1)
 
 # Створюємо мітку для назви тесту
-title_label = tk.Label(main_frame, text="Тест: Який талісман підходить саме вам?", font=("Helvetica", 16))
+title_label = tk.Label(
+    main_frame,
+    text="Тест: Який талісман підходить саме вам?",
+    font=("Helvetica", 16),
+    image=background_image,
+    compound="center",
+    width=400,
+    height=50
+)
 title_label.pack()
 
 # Створюємо кнопку для початку тесту
-start_button = tk.Button(main_frame, text="Пройти тест", command=start_test, font=("Helvetica", 14))
+start_button = tk.Button(
+    main_frame,
+    text="Пройти тест",
+    command=start_test,
+    font=("Helvetica", 14),
+    image=background_image,
+    compound="center",
+    width=200,
+    height=50,
+    bd=4,
+    highlightthickness=4
+)
 start_button.pack()
 
 # Створюємо мітку для питання
-question_label = tk.Label(main_frame, text="", anchor="w", font=("Helvetica", 12))
+question_label = tk.Label(
+    main_frame,
+    text="",
+    anchor="w",
+    font=("Helvetica", 12),
+    image=background_image,
+    compound="center",
+    width=600,
+    height=50
+)
 question_label.pack()
 
 # Запускаємо Tkinter event loop
