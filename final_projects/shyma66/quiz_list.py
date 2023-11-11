@@ -441,5 +441,3 @@ def display_score(): #shows the score at the end
     pygame.quit()
     sys.exit()
 
-
-
