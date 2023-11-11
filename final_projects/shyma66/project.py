@@ -36,7 +36,5 @@ def message_display():  #first window
 
         pygame.display.flip()
 
-
-
 if __name__ == "__main__":
     message_display()

@@ -437,7 +437,7 @@ def display_score(): #shows the score at the end
 
             if event.type == pygame.MOUSEBUTTONDOWN:
                 run = False
-    pygame.time.delay(50)
+
     pygame.quit()
     sys.exit()
 
