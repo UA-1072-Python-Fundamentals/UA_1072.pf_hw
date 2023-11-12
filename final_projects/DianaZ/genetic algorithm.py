@@ -21,7 +21,7 @@ def reproduction(X):
 def select(X, Y, Min, Hmin):
     B = []
     hmin = 100
-    h = []
+    h = [] #list for error
     Nhmin = 0
     for i in range(40): #finding the element with the smallest error
         h.append(0)
@@ -73,26 +73,28 @@ M = random.randint(0, 100)
 while (Hmin > 25) and (i < 1000):
     i += 1
     X += reproduction(X)
-    X, Hmin = select(X, Y, Min, Hmin)
     X = mutation(X, i)
+    X, Hmin = select(X, Y, Min, Hmin)
+
 print(i, Hmin)
 
 plt.figure(0)
 plt.plot(grid, Y, color="red")
 plt.plot(grid, Min[0])
 
-plt.figure(1)
-plt.plot(grid, Y, color="red")
-plt.plot(grid, Min[i - 1])
+# plt.figure(1)
+# plt.plot(grid, Y, color="red")
+# plt.plot(grid, Min[i - 1])
 
 plt.figure(2)
 plt.ion()   # dynamic graph
 for n in range(0, i, 10):
     plt.clf() # cleaning
+    plt.plot(grid, Y, color="red")
     plt.plot(grid, Min[n])
     plt.draw()
     plt.pause(0.1)
-
-plt.pause(100)
+while True:
+    plt.pause(1)
 #plt.show()
 
