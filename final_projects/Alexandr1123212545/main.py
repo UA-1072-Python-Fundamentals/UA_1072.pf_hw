@@ -13,7 +13,7 @@ YELLOW = (255, 255, 0)
 BLUE = (0, 0, 255)
 
 start = 0
-screen = pygame.display.set_caption('HangMan')
+pygame.display.set_caption('HangMan')
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 font_1 = pygame.font.SysFont('italic', 40)
 font_2 = pygame.font.SysFont('italic', 100)
@@ -32,7 +32,6 @@ btn_game_text = font_3.render('Грати', True, BLACK)
 game = True
 user_input = ''
 tries = 7
-secret_word = None
 message = 0
 entered_let = []
 messages = [
@@ -44,11 +43,13 @@ messages = [
     'CONGRATULATIONS',
 ]
 
-def check(letter):
-    if not letter.isalpha():
+
+def check(let):
+    if not let.isalpha():
         return False
     return True
 clue, word, secret_word = generate_word()
+
 
 while True:
     for event in pygame.event.get():
@@ -62,6 +63,7 @@ while True:
                 start, message = 0, 0
                 clue, word, secret_word = generate_word()
                 entered_let = []
+                back_ground = pygame.image.load(f'image/image_0{start}.jpg')
             if btn_ok.collidepoint(event.pos) and game:
                 message = 0
                 if user_input in word or user_input in entered_let:
@@ -100,7 +102,6 @@ while True:
             else:
                 user_input += event.unicode.upper()
             
-
     clock.tick(20)
     screen.blit(back_ground, (0, 0))
 
@@ -151,6 +152,3 @@ while True:
         screen.blit(btn_ok_text, text_in_btn_ok)                      
         screen.blit(secret_text, secret_rect)                           
     pygame.display.flip()
-
-    
-
