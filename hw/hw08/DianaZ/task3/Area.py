@@ -12,3 +12,4 @@ def triangle(a, h):
 
 def circle(r):
     return round(pi * 2 * pow(r, 2), 2)
+if __name__ == '__main__': print('hi')
