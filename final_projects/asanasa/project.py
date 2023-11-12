@@ -103,7 +103,7 @@ def next_question():
     selected_option = selected_answers[current_question]
 
     if not selected_option:
-        tk.messagebox.showerror("Error", "Оберіть хоча б один варіант відповіді.")
+        tk.messagebox.showerror("Error", "Оберіть один варіант відповіді.")
         return
 
     if current_question < len(questions) - 1:
@@ -119,6 +119,9 @@ def next_question():
 window = Tk()
 window.geometry("600x400")
 window.title("Тест: Який талісман підходить саме вам?")
+window.resizable(width=False, height=False)
+img = PhotoImage(file="9391712.png")
+window.iconphoto(False, img)
 
 result_images = {
     "A": PhotoImage(file="sphir.png"),
@@ -151,6 +154,8 @@ def show_result():
     result_window = tk.Toplevel(window)
     result_window.geometry("600x450")
     result_window.title("Результат тесту")
+    result_window.resizable(width=False, height=False)
+    result_window.iconphoto(False, img)
     result_label = tk.Label(
         result_window,
         text=result,
