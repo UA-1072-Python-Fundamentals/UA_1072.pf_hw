@@ -10,6 +10,3 @@ def between_words(text, word1, word2):
     for item in fined:
         ls.append(word1 + ''.join(item) + word2)
     return ls
-
-
-# print(between_words("my is name To be or not to be, ay, there's the point my is name + be", 'be', 'is'))
