@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>You submitted the following data:</p>
+<table>
+    <tbody>
+    <tr>
+        <td>Text:</td>
+        <td>{{ the_text }}</td>
+    </tr>
+    <tr>
+        <td>First {{ what }}:</td>
+        <td>{{ the_first }}</td>
+    </tr>
+    <tr>
+        <td>Last {{ what }}:</td>
+        <td>{{ the_last }}</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>Results are returned:</p>
+<!--<h3>{{ the_data }}</h3>-->
+<table>
+    <tbody>
+        {% for item in the_data %}
+            <tr><td>{{ item }}</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+{% endblock %}
