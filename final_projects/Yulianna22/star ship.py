@@ -2,6 +2,7 @@ import sys
 import pygame
 import random
 import pygame.time
+import os
 
 
 pygame.init()
@@ -17,8 +18,8 @@ class Ship:
     def __init__(self,screen):
         self.screen=screen
         self.screen_rect=screen.get_rect()
-
-        self.original_image=pygame.image.load('c:/softserve1/final_projects/Yulianna22/images/ship.bmp')
+        image_path=os.path.join(os.path.dirname(__file__), 'images\ship1.bmp')
+        self.original_image=pygame.image.load(image_path)
         scaled_width = 90
         scaled_height = 180 
         self.image = pygame.transform.scale(self.original_image, (scaled_width, scaled_height))
