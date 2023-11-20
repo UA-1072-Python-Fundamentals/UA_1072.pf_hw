@@ -4,7 +4,7 @@ from tkinter import messagebox
 import random
 from timeit import default_timer as timer
 from words import word_list
-import pygame
+
 
 root = tk.Tk()
 root.title("Typing Game")
@@ -14,7 +14,6 @@ root.configure(bg="#E6E6E6")
 
 root.resizable(width=False, height=False)
 
-pygame.mixer.init()
 
 matched = 0
 not_matched = 0
