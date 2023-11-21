@@ -1,0 +1,20 @@
+def solution(number):
+    sum = 0
+    l = set()
+    for i in range(3, number, 3):
+        l.add(i)
+    for i in range(5, number, 5):
+        l.add(i)
+    for i in l:
+        sum += i
+    return sum
+
+
+print(solution(4))
+print(solution(6))
+print(solution(16))
+print(solution(3))
+print(solution(5))
+print(solution(15))
+print(solution(0))
+print(solution(-1))
