@@ -1,6 +1,5 @@
 from random import choice
 
-secret_word = None
 
 def generate_word():
     """
@@ -15,6 +14,7 @@ def generate_word():
     vocabulary = dict()
     number_words = 25
 
+
     with open('words_uk.txt', 'r', encoding='utf-8') as file:
         for i in range(number_words):
             text = file.readline().strip().split(' - ')
@@ -24,8 +24,3 @@ def generate_word():
     word = ['_' for i in range(len(secret_word))]
 
     return clue, word, secret_word
-
-
-if __name__ == "__main__":
-    print(*generate_word(), sep='\n')
-
