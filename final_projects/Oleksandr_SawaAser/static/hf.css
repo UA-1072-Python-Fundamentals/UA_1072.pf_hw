@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    display: flex;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav {
+    display: flex;
+    color: #fff;
+    margin: 0 8px;
+    font-size: 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #ecf0f1;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Reset Styles */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* User Agent Styles */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Color Variables */
+:root {
+    --primary-color: #2980b9;
+    --secondary-color: #ecf0f1;
+    --text-color: #333;
+    --link-color: #3498db;
+}
+
+/* Header Styles */
+h2 {
+    font-size: 150%;
+}
+
+/* Table Styles */
+table {
+    margin: 20px;
+    width: 95%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Input Styles */
+input[type=text] {
+    font-size: 20px;
+    padding: 5px;
+    width: calc(100% - 20px); /* Adjusted width to be responsive */
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
